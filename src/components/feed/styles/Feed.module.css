@@ -1,0 +1,189 @@
+.feedMain{
+    margin-top: 15px;
+    height: 100%;
+}
+.feedPhoto{
+    width: 100%;
+    height: 200px;
+    object-fit: contain;
+    border-radius: var(--mainBorderRadius);
+}
+.feedPhotoContainer{
+    width: 240px;
+    height: 300px;
+    border-radius: var(--mainBorderRadius);
+    background:var(--mainBlockColor);
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+.feedPhotoButton{
+    margin-top: 20px;
+    background: none;
+    border: var(--mainTextColor) 1px solid;
+    color: var(--mainTextColor);
+    padding: 10px;
+    border-radius: var(--mainBorderRadius);
+    transition: .5s;
+    cursor: pointer;
+    outline: none;
+}
+.feedPhotoButton:hover{
+    border: 1px #cfe0f9 solid;
+    background: var(--mainTextColor);
+    color: var(--mainBlockColor);
+}
+.feedInfoContainer{
+    border-radius: var(--mainBorderRadius);
+    background: var(--mainBlockColor);
+    margin-left: 20px;
+    color: var(--mainTextColor);
+    min-width: 550px !important;
+    padding: 15px 20px;
+}
+.feedInfoContainer h2{
+    font-weight: 300;
+    color: white;
+}
+.feedAbout p{
+    margin-top: 10px;
+}
+.feedInfoName{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.feedSetting{
+    cursor: pointer;
+    transition: .3s;
+}
+.feedSetting:hover{
+    transform: scale(1.1);
+}
+.feedCountsModule{
+    margin-top: 20px;
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.feedPhotoGallery{
+    margin: 10px 0 0 0;
+    padding: 5px 10px;
+    background: var(--mainBlockColor);
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    min-width: 550px !important;
+    align-items: center;
+
+}
+.sliderImage{
+    width: 100px !important;
+    height:100px;
+    object-fit: cover;
+
+}
+.swiper-container {
+    width:200px !important;
+    height: 300px;
+}
+.swiper-slide{
+    min-width: 300px !important;
+}
+.feedInitialContainer{
+    display: flex;
+    justify-content: center;
+}
+.feedGroupsContainer{
+    background: var(--mainBlockColor);
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 20px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    width: 800px;
+    height: auto;
+}
+.feedGroup{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-around;
+    align-items: center;
+    text-decoration: none;
+    width: 120px;
+    text-align: center;
+    border-radius: var(--mainBorderRadius);
+    padding: 10px 20px;
+    border: 1px black solid;
+}
+.feedGroupContainer{
+    margin-top: 10px;
+}
+.groupPhoto{
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+}
+.groupName{
+    font-size: 16px;
+    color: var(--mainTextColor);
+}
+.feedPostFieldContainer{
+    margin: 10px 0 30px 0;
+    border-radius: var(--mainBorderRadius);
+    height: 100px;
+    background: var(--mainBlockColor);
+    width: 50%;
+}
+.feedPostsContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.feedSendPost{
+    margin-top: 10px;
+    width: 100%;
+    border:1px var(--mainBlockColor) solid;
+    background: transparent;
+    padding: 10px 0;
+    cursor: pointer;
+    transition: .3s;
+    outline: none;
+    color: var(--mainBlockColor);
+    border-radius: var(--mainBorderRadius);
+}
+.feedSendPost:hover{
+    background: var(--mainBlockColor);
+    color: var(--mainTextColor);
+    border-radius: var(--mainBorderRadius);
+}
+.feedPostField{
+    background: none;
+    width: 100%;
+    height: 100%;
+    resize: none;
+    color: var(--mainTextColor);
+    padding: 15px;
+    outline: none;
+    border: none;
+    border-radius: var(--mainBorderRadius);
+    margin-bottom: 20px;
+}
+.feedPostField::placeholder{
+    color: var(--mainTextColor);
+}
+.feedPostField::-webkit-scrollbar {
+     display: block;
+     width: 6px;
+     height: 3px;
+ }
+.feedPostField::-webkit-scrollbar-track {
+     background: rgba(255, 255, 255, 0);
+     border-radius: 3px;
+ }
+.feedPostField::-webkit-scrollbar-thumb {
+     background-color: var(--mainTextColor);
+     box-shadow: 1px 2px 5px black;
+     border-radius: 3px;
+ }

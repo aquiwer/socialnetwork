@@ -1,0 +1,44 @@
+.headerContainer{
+    width: 100%;
+    background: var(--mainBlockColor);
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.headerPhoto{
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+}
+.headerTitle{
+    cursor: pointer;
+    transition: .3s;
+}
+.headerLogoContainer h2{
+    color: var(--mainTextColor);
+}
+.headerTitle:hover{
+    transform: scale(1.1);
+}
+.navLink{
+    color: var(--mainTextColor);
+}
+.headerLogo{
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+}
+.headerTitle{
+    width: 140px;
+    height: 140px;
+    object-fit: contain;
+}
+.headerPhoto, .headerLogo{
+    transition: .3s;
+    cursor: pointer;
+}
+.headerPhoto:hover, .headerLogo:hover{
+    transform: scale(1.1);
+}

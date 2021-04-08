@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import "https://use.fontawesome.com/releases/v5.5.0/css/all.css";
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    overflow-x: hidden;
+    background: #cfe0f9;
+}
+:root{
+    font-family: 'Lato', sans-serif;
+}
+*{
+    --mainBlockColor: #001529;
+    --mainTextColor: #E0F4FF;
+    --mainBorderRadius: 5px;
+}

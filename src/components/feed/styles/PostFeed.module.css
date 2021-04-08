@@ -1,0 +1,55 @@
+.postContainer{
+    background: var(--mainBlockColor);
+    border-radius: var(--mainBorderRadius);
+    width: 800px;
+    height: auto;
+}
+.postContainer:first-child{
+    margin-top: 65px;
+}
+.postContainer:last-child{
+    margin-bottom: 65px;
+}
+.postContainer{
+    margin-top: 15px;
+}
+.postAuthorContainer{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+.postAuthorPhoto{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    object-fit: cover;
+}
+.postAuthorInfoContainer{
+    margin-left: 10px;
+}
+.postName{
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+.postName, .postDate{
+    color: var(--mainTextColor);
+}
+.postContentContainer{
+    position: relative;
+    width: 800px;
+    height: auto;
+}
+.postContentContainer::before{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 2px;
+    background: white;
+    opacity:.2;
+    top: 0;
+}
+.postContent{
+    padding:20px 30px;
+    width: 800px;
+    color: var(--mainTextColor);
+}
